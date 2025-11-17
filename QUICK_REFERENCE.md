@@ -1,29 +1,5 @@
 # 🚀 Quick Reference - Your Two New Skills
 
-## 📊 Data Visualization Wizard
-**File:** `data-viz-wizard.skill`
-
-### One-Line Summary
-Turn any dataset into beautiful charts with automatic analysis and smart chart selection.
-
-### Quick Commands
-```bash
-# Analyze data
-python3 scripts/analyze_data.py data.csv --format text
-
-# Create scatter plot
-python3 scripts/create_visualization.py data.csv scatter plot.png '{"x": "col1", "y": "col2"}'
-
-# Correlation matrix
-python3 scripts/create_visualization.py data.csv correlation corr.png
-```
-
-### Chart Types
-scatter | bar | line | histogram | box | count | heatmap | correlation
-
-### Supported Files
-CSV | Excel (.xlsx, .xls) | JSON
-
 ---
 
 ## 📰 Tagesschau News
@@ -63,11 +39,6 @@ text | json | markdown
 
 ## 📝 Remember
 
-### Data Viz
-- Always analyze data first
-- Move outputs to `/mnt/user-data/outputs/`
-- Read `references/visualization_guide.md` for best practices
-
 ### Tagesschau  
 - Max 60 requests/hour (rate limit)
 - Check `tagesschau_audit.log` for audit trail
@@ -77,12 +48,6 @@ text | json | markdown
 ---
 
 ## 🎯 When to Use Each
-
-**Data Visualization Wizard** when user:
-- Has a dataset to visualize
-- Wants to "create a chart" or "graph this data"
-- Needs data analysis or insights
-- Asks "what's in this data?"
 
 **Tagesschau News** when user:
 - Wants German news
